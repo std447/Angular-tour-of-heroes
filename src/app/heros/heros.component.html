@@ -2,7 +2,7 @@
 
 <h2>My Heroes</h2>
 
-<!-- <div style="width:100%; display:flex; justify-content:space-around"> -->
+<div style="width:100%; display:flex; justify-content:space-around">
 
 <ul class="heroes">
     <li *ngFor = "let hero of heroes">
@@ -12,5 +12,6 @@
         </button>
     </li>
 </ul>
-
 <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+
+</div>
